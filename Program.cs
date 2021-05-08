@@ -26,6 +26,11 @@ namespace PesoIdeal
             {
                 Console.WriteLine($"Seu peso ideal é:{pesoF:N1} kg");
             }
+
+            else
+            {
+                Console.WriteLine($"O sexo digitado, [{sexo}] é inválido.");
+            }
         }
     }
 }
